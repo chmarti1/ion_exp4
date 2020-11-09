@@ -1,0 +1,90 @@
+Using the tests shown below, fits are produced for R(s) and s(R)
+Confidence intervals were established for 95% certainty (+/- 1.9 std)
+Tests marked False were not used for the curve fits
+('190320/test1.dat', False, False)
+('190320/test2.dat', True, True)
+('190320/test3.dat', False, False)
+('190320/test4.dat', True, True)
+('190320/test5.dat', True, True)
+('190320/test6.dat', True, True)
+('190320/test7.dat', False, False)
+('190320/test8.dat', False, False)
+('190320/test9.dat', True, True)
+('190320/test10.dat', True, True)
+('190320/test11.dat', True, True)
+('190322/test4.dat', True, True)
+('190322/test5.dat', True, True)
+('190322/test6.dat', True, True)
+('190322/test7.dat', True, True)
+('190322/test8.dat', True, False)
+('190322/test9.dat', True, False)
+('190322/test10.dat', True, False)
+('190322/test11.dat', True, False)
+('190322/test12.dat', True, False)
+('190322/test13.dat', True, False)
+('190322/test14.dat', True, True)
+('190322/test15.dat', True, True)
+('190327/test1.dat', True, False)
+('190327/test2.dat', True, False)
+('190327/test3.dat', True, False)
+('190327/test4.dat', True, False)
+('190327/test5.dat', True, False)
+('190327/test6.dat', True, False)
+('190327/test7.dat', True, False)
+('190327/test8.dat', True, True)
+('190327/test9.dat', True, True)
+('190327/test10.dat', True, True)
+('190327/test11.dat', True, True)
+('190327/test12.dat', True, True)
+('190327/test13.dat', True, True)
+('190327/test14.dat', True, True)
+('190327/test15.dat', True, True)
+('190327/test16.dat', True, True)
+('190327/test17.dat', True, True)
+('190327/test18.dat', True, True)
+('190327/test19.dat', True, True)
+***=====================***
+Group : tot  plt  fit
+    1 :  11   11   11  0-25uA sine
+    2 :   7    7    0  5-15uA sine
+    3 :  12   12   12  0-10uA sine
+    4 :   6    6    0  f/o 0.65 0-25uA
+    5 :   2    2    2  4.8bar, 0-25uA
+***=====================***
+With s in mm and R in MOhm
+***=====================***
+R = 2.791539e-03 s + 2.130014e-02
+With a 95\% confidence interval
+slope = 2.791539e-03 +/- 4.287515e-04
+offset = 2.130014e-02 +/- 2.289552e-03
+Uncertainty in the fit for R is
+var_R = 5.092184e-08 s^2 + -5.173659e-07 s + 1.452091e-06
+var_m = 5.092184e-08
+var_b = 1.452091e-06
+cov[m,b] = -2.586830e-07
+***=====================***
+s = 314.999273 R + -6.096540
+With a 95\% confidence interval
+slope = 314.999273 +/- 48.380626
+offset = -6.096540 +/- 1.732895
+Uncertainty in the fit for s is
+var_s = 648.389196 R^2 + -46.011203 R + 0.831835
+var_m = 6.483892e+02
+var_b = 8.318354e-01
+cov[m,b] = -2.300560e+01
+***=====================***
+so (mm)  std_dev (MOhm)
+6.350000  array([ 0.00154359,  0.00156049,  0.00183242,  0.00161651,  0.00129688,
+        0.0018646 ,  0.00194049,  0.00239489,  0.00266614])
+2.540000  array([ 0.0017051 ,  0.00161642,  0.00157787,  0.00055124,  0.00265157,
+        0.00272424,  0.00148922])
+5.080000  array([ 0.0026228 ,  0.00184175,  0.00173198,  0.00228083,  0.00127222,
+        0.00492067,  0.00277475,  0.0026278 ])
+7.620000  array([ 0.00151077,  0.00257804,  0.00218855,  0.00194401,  0.00196089,
+        0.00213517,  0.00244735])
+3.810000  array([ 0.00270111,  0.00189945,  0.00121238,  0.00139836,  0.00242122,
+        0.00253968,  0.00425106,  0.0019187 ,  0.0040405 ,  0.00320736,
+        0.0030682 ])
+
+
+
